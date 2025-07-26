@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"; 
 import './pages.css'
-import Header from "../header/Header";
 const HomePage = () => {
   return (
     <div className="page-container" >
