@@ -1,10 +1,7 @@
-import "./pages.css"
-// import "./courses.css"
-import Footer from "../Footer/Footer";
+import "./pages.css";
 
 const CoursesPage = () => {
   return (
-    
       <div className="main-layout">
       <div className="content">
     <div className="page-container">

@@ -67,7 +67,7 @@ const HomePage = () => {
       </p>
       <div className="call-to-action">
         <p>Ready to explore our courses?</p>
-        <Link to="/courses" className="btn">
+        <Link to="/CoursesPage" className="btn">
           Explore Courses
         </Link>{" "}
       </div>
