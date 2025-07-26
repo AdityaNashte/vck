@@ -2,8 +2,8 @@ import "./pages.css";
 
 const CoursesPage = () => {
   return (
-      <div className="main-layout">
-      <div className="content">
+      // <div className="main-layout">
+      // <div className="content">
     <div className="page-container">
       <h1>Our Academic Programs</h1>
       <p>
@@ -75,13 +75,14 @@ const CoursesPage = () => {
           </table>
           <h2>Specialized &amp; Vocational Courses</h2>
           <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
-        <div class="call-to-action">
+        <div className="call-to-action">
           <p>Have questions about a specific course?</p>
-          <a class="btn" href="/ContactPage" data-discover="true">Inquire About Courses</a></div>
+          
+          <a className="btn" href="/ContactPage" data-discover="true">Inquire About Courses</a></div>
   </div>
     
-    </div>
-      </div>
+    // </div>
+    //   </div>
   );
 };
 
